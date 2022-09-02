@@ -1,0 +1,206 @@
+
+
+:root{
+    --primary: hsla(384,97%,63%,0.65);
+    --secondary:hsla(230,96%,62%,0.65);
+ }
+body{
+    font-family: "barlow",sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+    color: #092032;
+}
+a{
+    color:#092032 ;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+img{
+    width: 100%;
+}
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*********SECTION NAVBAR********/
+.top-nav{
+background-color: #252D7F;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffffff;
+}
+.top-nav i,
+.top-nav span {
+    vertical-align: middle;
+}
+.social-links a{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100%;
+
+}
+.social-links a:hover{
+background-color: #ffffff;
+color: #EFB34F;
+}
+
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0,0,0,0.08);
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: #EFB34F;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: #072ac8;
+}
+.navbar-brand span{
+    color: #EFB34F;
+}
+
+/*********BTN********/
+.btn{
+    padding: 9px 24px !important;
+}
+.btn-brand{
+    background-color: #316CF4 !important;
+    color: #ffffff !important;
+    border-color: #072ac8 !important;
+}
+.btn-brand:hover{
+    color: #ffffff;
+    background-color:#252D7F;
+}
+
+/*********SLIDER********/
+.slide1{
+    background-image:linear-gradient(135deg, var(--primary) ,var(--secondary)), url(../media/imgB.jpg);
+   
+}
+.slide2{
+    background-image: url(../media/bg3.jpg);
+}
+.slide1 h1 span{
+    color: #EFB34F;
+}
+.slide2 h1 span{
+    color: #EFB34F;
+}
+/*********NEWSLETTER********/
+
+.new{
+    color: #ffffff;
+}
+@media(min-width:768px){ 
+    .news-input{
+width: 50% !important;
+}
+ }
+ /*********OWL CAROUSEL********/
+
+ .owl-prev,
+ .owl-next {
+     position: absolute;
+     top: 50%;
+     width: 60px !important;
+     height: 60px !important;
+     display: grid;
+     place-items: center;
+     background-color: rgba(255, 255, 255, 0.2) !important;
+     margin-top: -30px !important;
+     color: #ffffff !important;
+     font-weight: 700 !important;
+     font-size: 12px !important;
+     border-radius: 100px !important;
+ }
+ .owl-prev{
+     left: 0;
+ }
+ .owl-next{
+     right: 0;
+ }
+ .owl-prev:hover,
+ .owl-next:hover{
+     background-color: #072ac8 !important;
+ }
+ /*********INFO BOX QUI SOMME NOUS********/
+
+ .info-box{
+     display: flex;
+     align-items: center;
+ }
+ .info-box img {
+     width: 90px;
+     margin-right: 30px;
+ }
+ /********* NOTRE EXPERTISE ********/
+
+ #expertise h3{
+     color: #EFB34F !important;
+ }
+ /********* MILESTONE ********/
+
+ #milestone{
+    background-image:linear-gradient(135deg, var(--primary) ,var(--secondary)), url(../media/imgE.jpg);
+ }
+ #milestone .display-4,
+ #milestone p {
+     color: #ffffff;
+ }
+ #milestone .display-4{
+     font-weight: 700;
+ }
+/********* NOTRE EQUIPE ********/
+.team-member img{
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+    border: #EFB34F 3px solid;
+}
+ .social-icons{
+     display: flex;
+     justify-content: center;
+ }
+ .social-icons a{
+     width: 34px;
+     height: 34px;
+     background-color:#316CF4 ;
+     border-radius: 2px solid #316CF4;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 100px;
+     margin-left: 5px;
+     transition: all 0.4s ease;
+     border: #316CF4 2px solid;
+ }
+ .social-icons a :hover{
+     color: #316CF4;
+     background-color: transparent;
+     border-color: #316CF4;
+ }
+ /********* CONTACT ********/
+
+ .form-control:focus{
+     box-shadow: none;
+     border-color: #316CF4;
+ }
