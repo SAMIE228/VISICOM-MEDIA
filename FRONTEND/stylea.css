@@ -75,6 +75,10 @@ color: #EFB34F;
 .navbar-brand span{
     color: #EFB34F;
 }
+.logo{
+    width: 100px !important;
+    height: 40px !important;
+}
 
 /*********BTN********/
 .btn{
@@ -84,6 +88,11 @@ color: #EFB34F;
     background-color: #316CF4 !important;
     color: #ffffff !important;
     border-color: #072ac8 !important;
+}
+.btprint{
+    background-color: #EFB34F !important;
+    border-color: #EFB34F !important;
+    color: #316CF4 !important;
 }
 .btn-brand:hover{
     color: #ffffff;
@@ -163,7 +172,7 @@ width: 50% !important;
  }
  #milestone .display-4,
  #milestone p {
-     color: #ffffff;
+     color: #E6E6E2;
  }
  #milestone .display-4{
      font-weight: 700;
@@ -184,7 +193,7 @@ width: 50% !important;
      height: 34px;
      background-color:#316CF4 ;
      border-radius: 2px solid #316CF4;
-     color: white;
+     color: #E6E6E2;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -204,3 +213,50 @@ width: 50% !important;
      box-shadow: none;
      border-color: #316CF4;
  }
+
+
+ /*************************************** PAGE SERVICE ***********************************/
+
+ /********* IMAGE PRINCIPAL ********/
+
+ section.hero{
+     margin: rem 0;
+ }
+ .text-label,
+ .text-hero-bold,
+ .text-hero-regular{
+     margin: 24px 0 ;
+ }
+ .text-label{
+     color: #EFB34F;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 31px;
+ }
+ .text-hero-bold{
+     color: #316CF4;
+     font-size: 64px;
+     font-weight: 700;
+     line-height: 74px;
+ }
+ .text-hero-regular{
+     color: #516171;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 31px;
+ }
+  /* @media (min-width: 1399.98px) {
+     .container{
+         width: 84%;
+     }
+ }  */
+ 
+.lea{
+    font-size: 20px !important;
+    font-weight: 400;
+}
+.lea1{
+    font-size: 18px !important;
+    font-weight: 400;
+    color: #516171;
+}
