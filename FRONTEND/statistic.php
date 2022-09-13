@@ -1,4 +1,4 @@
-<section class="bg-cover" id="milestone">
+<section class="bg-cover mt-5" id="milestone">
            <div class="container">
              <div class="row gy-4 text-center justify-content-center pb-5 pt-3 mb-5">
                <div class="col-lg-2 col-sm-6">

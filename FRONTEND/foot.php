@@ -9,7 +9,7 @@
       <div class="modal-body p-0">
      <div class="container-fluid">
        <div class="row ">
-        <div class="col-lg-4 bg-cover" style="background-image: url(/media/pexels-marcelo-chagas-2535859.jpg); min-height:300px;"></div>
+        <div class="col-lg-4 bg-cover" style="background-image: url(../media/pexels-marcelo-chagas-2535859.jpg); min-height:300px;"></div>
         <div class="col-lg-8">
           <form action="" class="row p-lg-5 gy-3">
             <div class="col-12">
@@ -55,7 +55,7 @@
         <section>
           <div class="container">
             <div class="row ">
-             <div class="col-lg-4 bg-cover" style="background-image: url(/media/pexels-marcelo-chagas-2535859.jpg); min-height:300px;"></div>
+             <div class="col-lg-4 bg-cover" style="background-image: url(../media/pexels-marcelo-chagas-2535859.jpg); min-height:300px;"></div>
              <div class="col-lg-8">
                <form action="" class="row p-lg-5 gy-3">
                  <div class="col-12">

@@ -11,7 +11,7 @@
               <div class="owl-carousel owl-theme" id="partenaire">
                 <div class="item mb-4">
                   <div class="card border-0 shadow">
-                    <img src="/media/moov.jpg" alt="" class="card-img-top">
+                    <img src="../media/moov.jpg" alt="" class="card-img-top">
                     <div class="card-body">
                       <h4>Moov Africa</h4>
                     </div>
@@ -20,7 +20,7 @@
 
                 <div class="item mb-4">
                   <div class="card border-0 shadow">
-                    <img src="/media/bb.jpg" alt="" class="card-img-top">
+                    <img src="../media/bb.jpg" alt="" class="card-img-top">
                     <div class="card-body">
                       <h4>Brasserie bb lomé</h4>
                     </div>
@@ -29,7 +29,7 @@
 
                 <div class="item mb-4">
                   <div class="card border-0 shadow">
-                    <img src="/media/uba.jpg" alt="" class="card-img-top">
+                    <img src="../media/uba.jpg" alt="" class="card-img-top">
                     <div class="card-body">
                       <h4>UBA Bank</h4>
                     </div>
@@ -38,7 +38,7 @@
                 
                 <div class="item mb-4">
                   <div class="card border-0 shadow">
-                    <img src="/media/snb.jpg" alt="" class="card-img-top">
+                    <img src="../media/snb.jpg" alt="" class="card-img-top">
                     <div class="card-body">
                       <h4>Société nouvelle B</h4>
                     </div>
@@ -47,7 +47,7 @@
 
                 <div class="item mb-4">
                   <div class="card border-0 shadow">
-                    <img src="/media/ecobank.jpg" alt="" class="card-img-top">
+                    <img src="../media/ecobank.jpg" alt="" class="card-img-top">
                     <div class="card-body">
                       <h4>Ecobank Togo</h4>
                     </div>
@@ -56,7 +56,7 @@
 
                 <div class="item mb-4">
                   <div class="card border-0 shadow">
-                    <img src="/media/togocom.jpg" alt="" class="card-img-top">
+                    <img src="../media/togocom.jpg" alt="" class="card-img-top">
                     <div class="card-body">
                       <h4>Togocom</h4>
                     </div>
@@ -65,7 +65,7 @@
 
                 <div class="item mb-4">
                   <div class="card border-0 shadow">
-                    <img src="/media/togo.jpg" alt="" class="card-img-top">
+                    <img src="../media/togo.jpg" alt="" class="card-img-top">
                     <div class="card-body">
                       <h4>République TG</h4>
                     </div>
