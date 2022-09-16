@@ -11,7 +11,7 @@
        <div class="row ">
         <div class="col-lg-4 bg-cover" style="background-image: url(../media/pexels-marcelo-chagas-2535859.jpg); min-height:300px;"></div>
         <div class="col-lg-8">
-          <form action="" class="row p-lg-5 gy-3">
+          <form method="post" action="conexion.php" class="row p-lg-5 gy-3">
             <div class="col-12">
               <h1>Contactez-Nous</h1>
             <p>N’hésitez pas à nous contacter pour toute question. Nous sommes très sympathiques et toujours ouverts à discuter de nouveaux projets, d’idées intéressantes et faire partie d’un événement..</p>
@@ -19,26 +19,26 @@
             </div>
             <div class="col-lg-6">
                <label for="exampleFormControlInput1" class="form-label">Prénom</label>
-               <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Pinam-néwé">
+               <input type="text" name="prenom" class="form-control" id="exampleFormControlInput1" placeholder="Votre prénom">
             </div>
  
             <div class="col-lg-6">
              <label for="exampleFormControlInput1" class="form-label">Nom</label>
-             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="SAMIE">
+             <input type="text" name="nom" class="form-control" id="exampleFormControlInput1" placeholder="Votre nom">
           </div>
  
           <div class="col-lg-12">
            <label for="exampleFormControlInput1" class="form-label">Email</label>
-           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="visicomedia@gmail.com">
+           <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
         </div>
  
         <div class="col-12">
           <label for="message" class="form-label">Message</label>
-          <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Wow dite-nous! nous avons la solution à Votre problème"></textarea>
+          <textarea name="message" id="" cols="30" rows="4" class="form-control" placeholder="SALUT! Explique-nous ton besoins!....Nous avons la solution à Votre problème"></textarea>
         </div>
 
         <div class="col-12">
-          <button type="button" class="btn btn-primary">Send Message</button>
+          <button type="submit" name="envoyer" class="btn btn-primary">Send Message</button>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
  
@@ -57,7 +57,7 @@
             <div class="row ">
              <div class="col-lg-4 bg-cover" style="background-image: url(../media/pexels-marcelo-chagas-2535859.jpg); min-height:300px;"></div>
              <div class="col-lg-8">
-               <form action="" class="row p-lg-5 gy-3">
+               <form method="post" action="conexion.php" class="row p-lg-5 gy-3">
                  <div class="col-12">
                    <h1>Contactez-Nous</h1>
                  <p>N’hésitez pas à nous contacter pour toute question. Nous sommes très sympathiques et toujours ouverts à discuter de nouveaux projets, d’idées intéressantes et faire partie d’un événement..</p>
@@ -65,26 +65,26 @@
                  </div>
                  <div class="col-lg-6">
                     <label for="exampleFormControlInput1" class="form-label">Prénom</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Pinam-néwé">
+                    <input type="text" name="prenom" class="form-control" id="exampleFormControlInput1" placeholder="Votre prénom">
                  </div>
       
                  <div class="col-lg-6">
                   <label for="exampleFormControlInput1" class="form-label">Nom</label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="SAMIE">
+                  <input type="text" name="nom" class="form-control" id="exampleFormControlInput1" placeholder="Votre nom">
                </div>
       
                <div class="col-lg-12">
                 <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="visicomedia@gmail.com">
+                <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
              </div>
       
              <div class="col-12">
                <label for="message" class="form-label">Message</label>
-               <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Wow dite-nous! nous avons la solution à Votre problème"></textarea>
+               <textarea name="message" id="" cols="30" rows="4" class="form-control" placeholder="SALUT! Explique-nous ton besoins!.....Nous avons la solution à Votre problème"></textarea>
              </div>
      
              <div class="col-12">
-               <button type="button" class="btn btn-primary">Send Message</button>
+               <button type="submit" name="envoyer" class="btn btn-primary">Send Message</button>
              
              </div>
       
