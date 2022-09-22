@@ -18,7 +18,7 @@
                 <div class="social-links">
                     <a href="#"><i class="bi bi-facebook"></i></a>
                     <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/company/visicom-m%C3%A9dia/?viewAsMember=true"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
@@ -40,23 +40,23 @@
       <ul class="navbar-nav ms-auto">
         
         <li class="nav-item">
-          <a class="nav-link" href="#home">Acceuil</a>
+          <a class="nav-link" href="acceuil.php">Acceuil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Service</a>
+          <a class="nav-link" href="service.php">Service</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="blog.php">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Print</a>
+          <a class="nav-link" href="print.php">Print</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li> -->
       </ul>
       <a href="#" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#exampleModal" >Contact</a>
-      <a href="#" class="btn btn-brand ms-lg-3" >Partenaire</a>
+      <a href="../BACKEND/index.php" class="btn btn-brand ms-lg-3" >Partenaire</a>
     </div>
   </div>
 </nav>

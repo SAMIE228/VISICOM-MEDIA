@@ -101,7 +101,7 @@
 
           <section id="inscriptionform">
             <div class="container mb-5 col-lg-8 ">
-                <form class="p-5" action="conprint.php" method="POST" style="box-shadow: 0px 15px 50px rgba(0, 0, 0, .2);border-radius: 10px;">
+                <form class="p-5" action="conprint.php" method="post" style="box-shadow: 0px 15px 50px rgba(0, 0, 0, .2);border-radius: 10px;">
                     
                       <legend class="fw-2  p-1" style="color: #fff;; text-align: center ;border-radius: 5px;background-color: #316CF4;font-size: 20px;">COMMANDEZ VOTRE IMPRESSION EN LIGNE MAINTENANT</legend>
                       <div class="mb-3">
@@ -122,12 +122,12 @@
                       <div class="mb-3">
                         <label for="disabledSelect" class="form-label">Type de support<span style="color: red;">*</span></label>
                         <select id="disabledSelect"  name="support" class="form-select">
-                          <option value="2000">Bâche</option>
-                          <option value="1800">Autocollant</option>
-                          <option value="3500">One way</option>
-                          <option value="50">A5 Flyers</option>
-                          <option value="100">A4</option>
-                          <option value="200">A3</option>
+                          <option value="">Bâche</option>
+                          <option value="">Autocollant</option>
+                          <option value="">One way</option>
+                          <option value="">A5 Flyers</option>
+                          <option value="">A4</option>
+                          <option value="">A3</option>
                         </select>
                       </div>
 
@@ -162,14 +162,14 @@
                         <!-- <legend class="col-form-label col-sm-2 pt-0">Radios</legend> -->
                         <div class="col-sm-10">
                           <div class="form-check mt-2">
-                            <input  class="form-check-input" type="radio" name="livraison" id="gridRadios1" value="500" checked>
+                            <input  class="form-check-input" type="radio" name="livraison" id="gridRadios1" value="option1" checked>
                             <label class="form-check-label" for="gridRadios1">
                               Je veut être livré à domicile (frais de livraison à partir de 500F à lomé)
                             </label>
                           </div>
                           
                           <div class="form-check mt-3">
-                            <input class="form-check-input" type="radio" name="livraison" id="gridRadios3" value="0" checked>
+                            <input class="form-check-input" type="radio" name="livraison" id="gridRadios3" value="option2" checked>
                             <label class="form-check-label" for="gridRadios3">
                               Je préfère passer récuperer en agence
                             </label>

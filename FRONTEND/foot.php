@@ -210,7 +210,7 @@
                           <div class="social-links">
                             <a href="#"><i class="bi bi-facebook"></i></a>
                             <a href="#"><i class="bi bi-twitter"></i></a>
-                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/company/visicom-m%C3%A9dia/?viewAsMember=true"><i class="bi bi-linkedin"></i></a>
                             <a href="#"><i class="bi bi-instagram"></i></a>
                         </div>
                              <!-- <ul class="list-unstyled list-inline ">
