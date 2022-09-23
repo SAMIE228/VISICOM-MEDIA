@@ -21,6 +21,7 @@
 
  <?php include 'head.php'; ?>
 
+
  <!-- <SECTION BANIERE> -->
 
     <div class="slide3 min-vh-100 bg-cover d-flex align-items-center">
@@ -42,7 +43,9 @@
 
         <section class="row w-100 mt-5" id="features">
           <div class="col-lg-6 col-img">
+          <div class="container">
             <img  src="../media/print3.jpeg" alt="">
+           </div>
           </div>
           <div class="col-lg-6">
             <div class="container">
@@ -122,12 +125,12 @@
                       <div class="mb-3">
                         <label for="disabledSelect" class="form-label">Type de support<span style="color: red;">*</span></label>
                         <select id="disabledSelect"  name="support" class="form-select">
-                          <option value="">Bâche</option>
-                          <option value="">Autocollant</option>
-                          <option value="">One way</option>
-                          <option value="">A5 Flyers</option>
-                          <option value="">A4</option>
-                          <option value="">A3</option>
+                          <option value="1600">Bâche</option>
+                          <option value="1600">Autocollant</option>
+                          <option value="500">One way</option>
+                          <option value="50">A5 Flyers</option>
+                          <option value="75">A4</option>
+                          <option value="200">A3</option>
                         </select>
                       </div>
 
@@ -180,7 +183,7 @@
                       
 
                      
-                      <button type="submit" class="btn btn-primary" name="commande">Commandez</button>
+                      <button type="submit" class="btn btn-primary" name="commande" data-bs-toggle="modal" data-bs-target="#exampleModal">Commandez</button>
                     
                   </form>
             </div>

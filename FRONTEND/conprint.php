@@ -18,10 +18,13 @@ catch (PDOException $e) {
 }
 if (isset ($_POST['commande']))
 {
+    //test
+     
+    //test
     $nom = $_POST['nom'];
     $telephone = $_POST['telephone'];
     $email = $_POST['email'];
-    $support = $_POST['support'];
+    $support = (int) $_POST['support'];
     $longueur = $_POST['longueur'];
     $largeur = $_POST['largeur'];
     $copie = $_POST['copie'];
@@ -29,7 +32,10 @@ if (isset ($_POST['commande']))
     $fichier = $_POST['fichier'];
     $livraison = $_POST['livraison'];
 
-    $sql = ("INSERT INTO `impression`(`nom`, `telephone`, `email`, `support`,`longueur`,`largeur`,`copie`,`adress`,`fichier`,`livraison`) VALUES (:nom, :telephone, :email, :support, :longueur, :largeur, :copie, :adress, :fichier, :livraison)");
+    // calcule du solde
+    $solde = ($longueur*$largeur*$copie*$support)+ $livraison;
+
+    $sql = ("INSERT INTO `impression`(`nom`, `telephone`, `email`, `support`,`longueur`,`largeur`,`copie`,`adress`,`fichier`,`livraison`,`solde`) VALUES (:nom, :telephone, :email, :support, :longueur, :largeur, :copie, :adress, :fichier, :livraison, :solde)");
     $stmt = $conn->prepare($sql);
 
     $stmt->bindParam(':nom', $nom);
@@ -42,6 +48,8 @@ if (isset ($_POST['commande']))
     $stmt->bindParam(':adress', $adress);
     $stmt->bindParam(':fichier', $fichier);
     $stmt->bindParam(':livraison', $livraison);
+    $stmt->bindParam(':solde', $solde);
+    
 
     $stmt->execute();
     header('location:print.php');
