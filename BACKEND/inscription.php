@@ -69,7 +69,7 @@
           <a class="nav-link" href="connexion.php">Se connecter</a>
         </li>
         <li style="color:white ;" class="nav-item">
-          <a class="nav-link disabled" href="deconnexion.php">Déconnexion</a>
+          <a class="nav-link " href="deconnexion.php">Déconnexion</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -96,47 +96,47 @@
                                  {
                                      case 'success':
                                         ?>
-                                           <div class="alert alert-succes">
+                                           <div class="alert alert-succes text-primary">
                                                <strong>Succès</strong> inscription réussie!
                                            </div>
                                         <?php
                                         break;
 
-                                        case 'success':
+                                        case 'password':
                                             ?>
-                                               <div class="alert alert-succes">
+                                               <div class="alert alert-succes text-danger">
                                                    <strong>Erreur</strong> mot de passe different
                                                </div>
                                             <?php
                                             break;
 
-                                            case 'success':
+                                            case 'email':
                                                 ?>
-                                                   <div class="alert alert-succes">
+                                                   <div class="alert alert-succes text-danger">
                                                        <strong>Erreur</strong> email non valide
                                                    </div>
                                                 <?php
                                                 break;
 
-                                                case 'success':
+                                                case 'email_length':
                                                     ?>
-                                                       <div class="alert alert-succes">
+                                                       <div class="alert alert-succes text-danger">
                                                            <strong>Erreur</strong> email trop long
                                                        </div>
                                                     <?php
                                                     break;
 
-                                                    case 'success':
+                                                    case 'pseudo_length':
                                                         ?>
-                                                           <div class="alert alert-succes">
+                                                           <div class="alert alert-succes text-danger">
                                                                <strong>Erreur</strong> pseudo trop long
                                                            </div>
                                                         <?php
                                                         break;
 
-                                                        case 'success':
+                                                        case 'already':
                                                             ?>
-                                                               <div class="alert alert-succes">
+                                                               <div class="alert alert-succes text-danger">
                                                                    <strong>Erreur</strong> compte déjà existant
                                                                </div>
                                                             <?php
@@ -147,7 +147,7 @@
                         <h1>Inscription</h1>
                         <h4>Veuillez créer un compte</h4>
                         <fieldset>
-                        <form action="connexion.php" method="post">
+                        <form action="inscription_traitement.php" method="post">
 
                             <div class="form-row">
                                 <div class="col-lg-8">

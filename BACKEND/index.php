@@ -156,7 +156,7 @@
                             <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
                             </div>
 
-                            <a  href="">Mot de passe oublié?</a> 
+                            <a  href="change_password.php">Mot de passe oublié? changez ici</a> 
 
                             <p class="mt-3">Voulez-vous avoir un compt partenaire? <a href="inscription.php">inscrivez-vous ici</a></p>
 

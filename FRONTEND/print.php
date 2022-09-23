@@ -162,14 +162,14 @@
                         <!-- <legend class="col-form-label col-sm-2 pt-0">Radios</legend> -->
                         <div class="col-sm-10">
                           <div class="form-check mt-2">
-                            <input  class="form-check-input" type="radio" name="livraison" id="gridRadios1" value="option1" checked>
+                            <input  class="form-check-input" type="radio" name="livraison" id="gridRadios1" value="500" >
                             <label class="form-check-label" for="gridRadios1">
                               Je veut être livré à domicile (frais de livraison à partir de 500F à lomé)
                             </label>
                           </div>
                           
                           <div class="form-check mt-3">
-                            <input class="form-check-input" type="radio" name="livraison" id="gridRadios3" value="option2" checked>
+                            <input class="form-check-input" type="radio" name="livraison" id="gridRadios3" value="0" checked>
                             <label class="form-check-label" for="gridRadios3">
                               Je préfère passer récuperer en agence
                             </label>
